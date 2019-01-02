@@ -3,7 +3,11 @@
         {
             "name": "Linux",
             "includePath": [
-                "./3rdparty/opencv/include/opencv4"
+                "./3rdparty/opencv/include/opencv4",
+                "./3rdparty/eigen/include/eigen3",
+                "./3rdparty/gflags/include",
+                "./3rdparty/glog/include",
+                "./3rdparty/pcl/include/pcl-1.9"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/gcc",
